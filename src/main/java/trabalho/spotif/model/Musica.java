@@ -9,6 +9,9 @@ public class Musica {
     public int ano;
     public GenerosMusicais estilosMusical;
 
+    public Musica() {
+    }
+
     public Musica(int id, String titulo, String artista, String ulrCapaDoAlbum, int ano, GenerosMusicais estilosMusical) {
         this.id = id;
         this.titulo = titulo;
